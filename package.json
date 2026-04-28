@@ -1,0 +1,50 @@
+{
+  "name": "@v0idd0/gitwhen",
+  "version": "1.0.0",
+  "description": "gitwhen — pinpoint when a string, line, or file changed in git history. Wraps git log -S, git blame, and git log --diff-filter=A with sensible defaults. Zero deps. Free forever from vøiddo.",
+  "main": "src/index.js",
+  "bin": {
+    "gitwhen": "./bin/gitwhen.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "git",
+    "git-history",
+    "git-blame",
+    "git-log",
+    "git-archaeology",
+    "code-history",
+    "cli",
+    "devtools",
+    "voiddo"
+  ],
+  "author": "vøiddo <support@voiddo.com> (https://voiddo.com)",
+  "license": "MIT",
+  "homepage": "https://tools.voiddo.com/gitwhen/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voidd0/gitwhen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/voidd0/gitwhen/issues",
+    "email": "support@voiddo.com"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://voiddo.com/contact/"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
