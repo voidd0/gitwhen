@@ -1,6 +1,6 @@
 {
   "name": "@v0idd0/gitwhen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "gitwhen — pinpoint when a string, line, or file changed in git history. Wraps git log -S, git blame, and git log --diff-filter=A with sensible defaults. Zero deps. Free forever from vøiddo.",
   "main": "src/index.js",
   "bin": {
@@ -42,9 +42,14 @@
     "node": ">=14"
   },
   "files": [
-    "bin",
-    "src",
-    "README.md",
-    "LICENSE"
+    "bin/",
+    "src/",
+    "LICENSE",
+    "README.md"
+  ],
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
   ]
 }
