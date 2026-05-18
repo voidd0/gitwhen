@@ -5,7 +5,13 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-A0573A.svg)](LICENSE)
 [![Node ≥14](https://img.shields.io/badge/node-%E2%89%A514-1F1A14)](package.json)
 
+**[Homepage](https://tools.voiddo.com/gitwhen/?ref=gitwhen-readme)** · **[Compare with tig](https://tools.voiddo.com/gitwhen/compare/tig/?ref=gitwhen-readme)** · **[GitHub](https://github.com/voidd0/gitwhen)** · **[npm](https://www.npmjs.com/package/@v0idd0/gitwhen)** · **[All tools](https://tools.voiddo.com/?ref=gitwhen-catalog-readme)** · **[Contact](mailto:support@voiddo.com)**
+
+---
+
 Pinpoint *when* a string, line, or file changed in git history. Wraps `git log -S`, `git blame`, and `git log --diff-filter=A` with sensible defaults so you don't have to memorize flag combinations. Zero deps. Free forever from vøiddo.
+
+If you are choosing between a focused CLI and an interactive TUI, start with the live compare page: [gitwhen vs tig](https://tools.voiddo.com/gitwhen/compare/tig/?ref=gitwhen-readme).
 
 ```
 $ gitwhen "TODO: deprecated"
@@ -121,7 +127,7 @@ This is one tool out of many — see [`from-the-studio.md`](from-the-studio.md) 
 
 ## License
 
-MIT.
+MIT — part of the [vøiddo](https://voiddo.com/?ref=gitwhen-studio-readme) tools collection.
 
 ---
 

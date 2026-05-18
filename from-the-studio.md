@@ -24,6 +24,8 @@ This repo is one piece of [vøiddo](https://voiddo.com/), a small studio that sh
 
 All MIT, all zero-deps, all on `@v0idd0/*` on npm. Pick the one that solves the thing you're stuck on:
 
+Need the browser-vs-CLI decision first? [gitwhen vs tig](https://tools.voiddo.com/gitwhen/compare/tig/?ref=gitwhen-studio) shows when the focused gitwhen CLI beats the interactive TUI and when tig is the better fit.
+
 | tool | one-line |
 |---|---|
 | [cronwtf](https://github.com/voidd0/cronwtf) | decode any cron expression in plain English |

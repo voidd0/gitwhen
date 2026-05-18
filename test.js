@@ -26,9 +26,11 @@ eq('trailing colon',  parseLineSpec('foo.js:'),                   null);
 
 console.log('\nensureGitRepo:');
 {
+  const nonRepo = fs.mkdtempSync('/root/gitwhen-nonrepo-');
   let threw = false;
-  try { ensureGitRepo(os.tmpdir()); } catch (_) { threw = true; }
+  try { ensureGitRepo(nonRepo); } catch (_) { threw = true; }
   truthy('throws outside repo',  threw);
+  fs.rmSync(nonRepo, { recursive: true, force: true });
 }
 
 // Build a tiny throwaway git repo so we can test the full surface
